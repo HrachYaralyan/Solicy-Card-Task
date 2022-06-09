@@ -13,7 +13,7 @@ function App() {
 
   React.useEffect(() => {
     localStorage.setItem('LocalData', JSON.stringify(arr));
-  }, [arr]);
+  }, [arr]); 
 
   const ClearCart_F = (id) => {
     setArr(arr.filter((_, index) => index !== id));
