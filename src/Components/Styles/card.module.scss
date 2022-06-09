@@ -1,0 +1,49 @@
+.root{
+  width: 400px;
+  height: 250px;
+  border: 2px solid black;
+  margin: 7px;
+  h1{
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+.butEnd{
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+}
+.button{
+  width: 40px;
+  height: 40px;
+  border: 2px solid rgb(25, 0, 255);
+  transition: 1s;
+  margin: 5px;
+  &:hover{
+    background: rgb(25, 0, 247);
+    color: white;
+    transform: scale(1.1);
+
+  }
+}
+
+
+@media screen and(max-width: 500px) {
+  .root{
+    width: 100px;
+    height: 80px;
+    border: 2px solid black;
+    margin: 3px;
+    h1{
+      text-align: center;
+      margin-top: 0px;
+    }
+  }
+  .button{
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(25, 0, 255);
+    margin: 1px;
+    }
+}

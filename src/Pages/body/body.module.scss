@@ -1,0 +1,21 @@
+.root{
+  border: 0.1px solid rgb(0, 0, 0);
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+  overflow: scroll;
+  padding: 0 150px;
+  overflow-x: hidden;
+}
+
+
+
+@media screen and(max-width: 500px) {
+  .root{
+   
+    padding: 0 20px;
+    
+  }
+}

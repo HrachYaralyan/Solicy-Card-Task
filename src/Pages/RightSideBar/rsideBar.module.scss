@@ -1,0 +1,29 @@
+.root{
+  height: 100%;
+  border: 1px solid rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+  p{
+    padding: 3px;
+  }
+}
+
+@media screen and(max-width: 900px) {
+  .root{
+   
+    font-size: 12px;
+    font-weight: 500;
+    
+  }
+}
+
+@media screen and(max-width: 500px) {
+  .root{
+   
+   display: none;
+    
+  }
+}
